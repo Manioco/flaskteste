@@ -1,19 +1,22 @@
 from flask import Flask, render_template
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import UserMixin
+import os
 
 
-db = SQLAlchemy() # Create the database instance
+basedir = os.path.abspath(os.path.dirname(__file__))
+
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///a.db' # Connects the app to the database
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'database.db') # Connects the app to the database
 app.config['SECRET_KEY'] = "mysecretkey"
-db.init_app(app) # Initialize the database instance
+db = SQLAlchemy(app) # Create the database instance
+# db.init_app(app) # Initialize the database instance
 
 
 # The table for the user in the database
 class User(db.Model, UserMixin):
-    __tablename__ = "user_account"
+    __tablename__ = "users"
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(20), nullable=False)
     password = db.Column(db.String(80), nullable=False)
