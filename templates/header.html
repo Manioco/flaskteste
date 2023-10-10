@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{{ url_for('static', filename='reset.css') }}" rel="stylesheet"/>
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet"/>
+    {% block cssstyle %}{% endblock %}
+    <title>{% block pagetitle %}home{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <div class="header_menu">
+            <h1>O teste com flask</h1>
+            <h1>elemento 2</h1>
+            <h1>elemento 3</h1>
+        </div>
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+</body>
+</html>

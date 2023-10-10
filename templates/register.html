@@ -1,0 +1,12 @@
+{% extends 'header.html' %}
+
+{% block pagetitle %}
+Register
+{% endblock %}
+
+{% block content %}
+<h1>Register page</h1><br>
+<h2>Already have an account?</h2>
+<a href="{{url_for('login')}}">Login</a><br>
+<a href="{{url_for('home')}}">Home</a>
+{% endblock %}
