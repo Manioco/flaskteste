@@ -1,0 +1,19 @@
+INFO:root:Aplicativo iniciado
+INFO:werkzeug: * Running on http://localhost:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Aplicativo iniciado
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 113-951-105
+INFO:werkzeug: * Detected change in 'c:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask teste\\open_port_checker.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Aplicativo iniciado
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 113-951-105
+INFO:werkzeug: * Detected change in 'c:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask teste\\open_port_checker.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Aplicativo iniciado
+INFO:werkzeug: * Running on http://localhost:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Aplicativo iniciado
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 113-951-105

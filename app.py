@@ -1,3 +1,4 @@
+import time
 from flask import Flask, render_template, redirect, url_for, flash, request, session
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import UserMixin, login_user, LoginManager, login_required, logout_user, current_user
@@ -7,7 +8,10 @@ from wtforms import StringField, PasswordField, SubmitField
 from wtforms.validators import InputRequired, Length, ValidationError
 from flask_bcrypt import Bcrypt
 from open_port_checker import is_port_available
+import logging
 
+
+logging.basicConfig(filename='app.log', level=logging.INFO)  # Configuração do log
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 
@@ -109,17 +113,15 @@ def logout():
 
 
 if __name__ == "__main__":
-    with app.app_context():
-        db.create_all()  # Creates the database if it doesn't exist
-        print("Database created!")
+    logging.info("Aplicativo iniciado")  # Loga a mensagem quando o aplicativo é iniciado
+    
     for port_i in range(5000, 8000):
         if is_port_available(port_i):
             port = port_i
             break
         else:
             continue
-    app.run(debug=False, host="localhost", port=port)
+    app.run(debug=True, host="localhost", port=port)
 
     print("The app is running!")
-    import time
     time.sleep(60)

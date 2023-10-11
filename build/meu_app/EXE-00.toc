@@ -212,7 +212,7 @@
  [],
  False,
  False,
- 1697051110,
+ 1697056020,
  [('run.exe',
    'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
    'teste\\venv\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run.exe',

@@ -1,6 +1,7 @@
 import socket
 
 def is_port_available(port):
+    print(f"Verificando se a porta {port} está disponível...")
     try:
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
             s.bind(("localhost", port))
