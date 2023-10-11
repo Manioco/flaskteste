@@ -6,6 +6,7 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, SubmitField
 from wtforms.validators import InputRequired, Length, ValidationError
 from flask_bcrypt import Bcrypt
+from open_port_checker import is_port_available
 
 
 basedir = os.path.abspath(os.path.dirname(__file__))
@@ -111,4 +112,14 @@ if __name__ == "__main__":
     with app.app_context():
         db.create_all()  # Creates the database if it doesn't exist
         print("Database created!")
-    app.run(debug=True, host="0.0.0.0")
+    for port_i in range(5000, 8000):
+        if is_port_available(port_i):
+            port = port_i
+            break
+        else:
+            continue
+    app.run(debug=False, host="localhost", port=port)
+
+    print("The app is running!")
+    import time
+    time.sleep(60)
