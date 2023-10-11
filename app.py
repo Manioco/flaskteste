@@ -111,4 +111,4 @@ if __name__ == "__main__":
     with app.app_context():
         db.create_all()  # Creates the database if it doesn't exist
         print("Database created!")
-    app.run(debug=True)
+    app.run(debug=True, host="0.0.0.0")
