@@ -1,6 +1,6 @@
 from flask import Flask, render_template, redirect, url_for, flash, request, session
 from flask_sqlalchemy import SQLAlchemy
-from flask_login import UserMixin
+from flask_login import UserMixin, login_user, LoginManager, login_required, logout_user, current_user
 import os
 from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, SubmitField
@@ -16,6 +16,15 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'da
 app.config['SECRET_KEY'] = "mysecretkey"
 db = SQLAlchemy(app) # Create the database instance
 # db.init_app(app) # Initialize the database instance
+
+login_manager = LoginManager() # Allow the app and flask work together
+login_manager.init_app(app)
+login_manager.login_view = 'login'
+
+
+@login_manager.user_loader
+def load_user(user_id):
+    return User.query.get(int(user_id))
 
 
 # The table for the user in the database
@@ -33,7 +42,6 @@ class RegisterForm(FlaskForm):
 
     submit = SubmitField("Register")
 
-
     def validate_username(self, username):
         existing_user_username = User.query.filter_by(username=username.data).first()
         if existing_user_username:
@@ -47,6 +55,11 @@ class LoginForm(FlaskForm):
 
     submit = SubmitField("Login")
 
+    def validate_username(self, username):
+        existing_user_username = User.query.filter_by(username=username.data).first()
+        if not existing_user_username:
+            raise ValidationError("Username does not exist!") 
+
 
 @app.route('/')
 def home():
@@ -56,6 +69,14 @@ def home():
 @app.route('/login', methods=['GET', 'POST']) 
 def login():
     form = LoginForm()
+
+    if form.validate_on_submit():
+        # Check if the user exists
+        user = User.query.filter_by(username=form.username.data).first()
+        if user:
+            if bcrypt.check_password_hash(user.password, form.password.data):
+                login_user(user)
+                return redirect(url_for('dashboard'))
     return render_template('login.html', form=form)
 
 
@@ -71,6 +92,19 @@ def register():
         return redirect(url_for('login'))
 
     return render_template('register.html', form=form)
+
+
+@app.route('/dashboard', methods=['GET', 'POST'])
+@login_required
+def dashboard():
+    return render_template('dashboard.html')
+
+
+@app.route('/logout')
+@login_required
+def logout():
+    logout_user()
+    return redirect(url_for('home'))
 
 
 if __name__ == "__main__":
