@@ -2,11 +2,11 @@
 
 
 a = Analysis(
-    ['open_port_checker.py'],
+    ['app.py'],
     pathex=[],
     binaries=[],
-    datas=[],
-    hiddenimports=['asgiref', 'bcrypt', 'cffi', 'click', 'colorama', 'dnspython', 'email-validator', 'Flask', 'Flask_Bcrypt', 'Flask_Login', 'Flask_SQLAlchemy', 'Flask_WTF', 'greenlet', 'idna', 'importlib_metadata', 'itsdangerous', 'Jinja2', 'MarkupSafe', 'pycparser', 'six', 'SQLAlchemy', 'sqlparse', 'typing_extensions', 'Werkzeug', 'WTForms', 'zipp'],
+    datas=[('templates', 'templates'), ('static', 'static'), ('database.db', '.'), ('open_port_checker.py', '.')],
+    hiddenimports=['open_port_checker', 'asgiref', 'bcrypt', 'cffi', 'click', 'colorama', 'dnspython', 'email-validator', 'Flask', 'Flask_Bcrypt', 'Flask_Login', 'Flask_SQLAlchemy', 'Flask_WTF', 'greenlet', 'idna', 'importlib_metadata', 'itsdangerous', 'Jinja2', 'MarkupSafe', 'packaging', 'pycparser', 'six', 'SQLAlchemy', 'sqlparse', 'typing_extensions', 'Werkzeug', 'WTForms', 'zipp'],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],

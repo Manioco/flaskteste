@@ -42,6 +42,18 @@
    'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
    'teste\\venv\\Lib\\site-packages\\asgiref\\__init__.py',
    'PYMODULE'),
+  ('asgiref.current_thread_executor',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\asgiref\\current_thread_executor.py',
+   'PYMODULE'),
+  ('asgiref.local',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\asgiref\\local.py',
+   'PYMODULE'),
+  ('asgiref.sync',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\asgiref\\sync.py',
+   'PYMODULE'),
   ('ast', 'C:\\Program Files\\Python311\\Lib\\ast.py', 'PYMODULE'),
   ('asyncio',
    'C:\\Program Files\\Python311\\Lib\\asyncio\\__init__.py',
@@ -269,6 +281,10 @@
    'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
    'teste\\venv\\Lib\\site-packages\\click\\termui.py',
    'PYMODULE'),
+  ('click.testing',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\click\\testing.py',
+   'PYMODULE'),
   ('click.types',
    'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
    'teste\\venv\\Lib\\site-packages\\click\\types.py',
@@ -454,6 +470,471 @@
   ('distutils.versionpredicate',
    'C:\\Program Files\\Python311\\Lib\\distutils\\versionpredicate.py',
    'PYMODULE'),
+  ('dns',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\__init__.py',
+   'PYMODULE'),
+  ('dns._immutable_attr',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\_immutable_attr.py',
+   'PYMODULE'),
+  ('dns._immutable_ctx',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\_immutable_ctx.py',
+   'PYMODULE'),
+  ('dns.dnssec',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\dnssec.py',
+   'PYMODULE'),
+  ('dns.edns',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\edns.py',
+   'PYMODULE'),
+  ('dns.entropy',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\entropy.py',
+   'PYMODULE'),
+  ('dns.enum',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\enum.py',
+   'PYMODULE'),
+  ('dns.exception',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\exception.py',
+   'PYMODULE'),
+  ('dns.flags',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\flags.py',
+   'PYMODULE'),
+  ('dns.grange',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\grange.py',
+   'PYMODULE'),
+  ('dns.immutable',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\immutable.py',
+   'PYMODULE'),
+  ('dns.inet',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\inet.py',
+   'PYMODULE'),
+  ('dns.ipv4',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\ipv4.py',
+   'PYMODULE'),
+  ('dns.ipv6',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\ipv6.py',
+   'PYMODULE'),
+  ('dns.message',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\message.py',
+   'PYMODULE'),
+  ('dns.name',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\name.py',
+   'PYMODULE'),
+  ('dns.node',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\node.py',
+   'PYMODULE'),
+  ('dns.opcode',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\opcode.py',
+   'PYMODULE'),
+  ('dns.query',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\query.py',
+   'PYMODULE'),
+  ('dns.rcode',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rcode.py',
+   'PYMODULE'),
+  ('dns.rdata',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdata.py',
+   'PYMODULE'),
+  ('dns.rdataclass',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdataclass.py',
+   'PYMODULE'),
+  ('dns.rdataset',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdataset.py',
+   'PYMODULE'),
+  ('dns.rdatatype',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdatatype.py',
+   'PYMODULE'),
+  ('dns.rdtypes',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\__init__.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\__init__.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.AFSDB',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\AFSDB.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.AMTRELAY',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\AMTRELAY.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.AVC',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\AVC.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.CAA',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\CAA.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.CDNSKEY',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\CDNSKEY.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.CDS',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\CDS.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.CERT',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\CERT.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.CNAME',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\CNAME.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.CSYNC',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\CSYNC.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.DLV',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\DLV.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.DNAME',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\DNAME.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.DNSKEY',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\DNSKEY.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.DS',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\DS.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.EUI48',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\EUI48.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.EUI64',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\EUI64.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.GPOS',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\GPOS.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.HINFO',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\HINFO.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.HIP',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\HIP.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.ISDN',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\ISDN.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.L32',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\L32.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.L64',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\L64.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.LOC',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\LOC.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.LP',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\LP.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.MX',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\MX.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.NID',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\NID.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.NINFO',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\NINFO.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.NS',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\NS.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.NSEC',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\NSEC.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.NSEC3',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\NSEC3.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.NSEC3PARAM',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\NSEC3PARAM.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.OPENPGPKEY',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\OPENPGPKEY.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.OPT',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\OPT.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.PTR',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\PTR.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.RP',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\RP.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.RRSIG',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\RRSIG.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.RT',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\RT.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.SMIMEA',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\SMIMEA.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.SOA',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\SOA.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.SPF',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\SPF.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.SSHFP',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\SSHFP.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.TKEY',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\TKEY.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.TLSA',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\TLSA.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.TSIG',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\TSIG.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.TXT',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\TXT.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.URI',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\URI.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.X25',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\X25.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.ZONEMD',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\ZONEMD.py',
+   'PYMODULE'),
+  ('dns.rdtypes.CH',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\CH\\__init__.py',
+   'PYMODULE'),
+  ('dns.rdtypes.CH.A',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\CH\\A.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\IN\\__init__.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.A',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\IN\\A.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.AAAA',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\IN\\AAAA.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.APL',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\IN\\APL.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.DHCID',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\IN\\DHCID.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.HTTPS',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\IN\\HTTPS.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.IPSECKEY',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\IN\\IPSECKEY.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.KX',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\IN\\KX.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.NAPTR',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\IN\\NAPTR.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.NSAP',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\IN\\NSAP.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.NSAP_PTR',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\IN\\NSAP_PTR.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.PX',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\IN\\PX.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.SRV',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\IN\\SRV.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.SVCB',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\IN\\SVCB.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.WKS',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\IN\\WKS.py',
+   'PYMODULE'),
+  ('dns.rdtypes.dnskeybase',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\dnskeybase.py',
+   'PYMODULE'),
+  ('dns.rdtypes.dsbase',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\dsbase.py',
+   'PYMODULE'),
+  ('dns.rdtypes.euibase',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\euibase.py',
+   'PYMODULE'),
+  ('dns.rdtypes.mxbase',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\mxbase.py',
+   'PYMODULE'),
+  ('dns.rdtypes.nsbase',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\nsbase.py',
+   'PYMODULE'),
+  ('dns.rdtypes.svcbbase',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\svcbbase.py',
+   'PYMODULE'),
+  ('dns.rdtypes.tlsabase',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\tlsabase.py',
+   'PYMODULE'),
+  ('dns.rdtypes.txtbase',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\txtbase.py',
+   'PYMODULE'),
+  ('dns.rdtypes.util',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rdtypes\\util.py',
+   'PYMODULE'),
+  ('dns.renderer',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\renderer.py',
+   'PYMODULE'),
+  ('dns.resolver',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\resolver.py',
+   'PYMODULE'),
+  ('dns.reversename',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\reversename.py',
+   'PYMODULE'),
+  ('dns.rrset',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\rrset.py',
+   'PYMODULE'),
+  ('dns.serial',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\serial.py',
+   'PYMODULE'),
+  ('dns.set',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\set.py',
+   'PYMODULE'),
+  ('dns.tokenizer',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\tokenizer.py',
+   'PYMODULE'),
+  ('dns.transaction',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\transaction.py',
+   'PYMODULE'),
+  ('dns.tsig',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\tsig.py',
+   'PYMODULE'),
+  ('dns.ttl',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\ttl.py',
+   'PYMODULE'),
+  ('dns.update',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\update.py',
+   'PYMODULE'),
+  ('dns.version',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\version.py',
+   'PYMODULE'),
+  ('dns.win32util',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\win32util.py',
+   'PYMODULE'),
+  ('dns.wire',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\wire.py',
+   'PYMODULE'),
+  ('dns.xfr',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\xfr.py',
+   'PYMODULE'),
+  ('dns.zone',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\zone.py',
+   'PYMODULE'),
+  ('dns.zonefile',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\dns\\zonefile.py',
+   'PYMODULE'),
+  ('doctest', 'C:\\Program Files\\Python311\\Lib\\doctest.py', 'PYMODULE'),
   ('email',
    'C:\\Program Files\\Python311\\Lib\\email\\__init__.py',
    'PYMODULE'),
@@ -514,12 +995,1168 @@
   ('email.utils',
    'C:\\Program Files\\Python311\\Lib\\email\\utils.py',
    'PYMODULE'),
+  ('email_validator',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\email_validator\\__init__.py',
+   'PYMODULE'),
+  ('flask',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask\\__init__.py',
+   'PYMODULE'),
+  ('flask.app',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask\\app.py',
+   'PYMODULE'),
+  ('flask.blueprints',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask\\blueprints.py',
+   'PYMODULE'),
+  ('flask.cli',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask\\cli.py',
+   'PYMODULE'),
+  ('flask.config',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask\\config.py',
+   'PYMODULE'),
+  ('flask.ctx',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask\\ctx.py',
+   'PYMODULE'),
+  ('flask.debughelpers',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask\\debughelpers.py',
+   'PYMODULE'),
+  ('flask.globals',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask\\globals.py',
+   'PYMODULE'),
+  ('flask.helpers',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask\\helpers.py',
+   'PYMODULE'),
+  ('flask.json',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask\\json\\__init__.py',
+   'PYMODULE'),
+  ('flask.json.tag',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask\\json\\tag.py',
+   'PYMODULE'),
+  ('flask.logging',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask\\logging.py',
+   'PYMODULE'),
+  ('flask.scaffold',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask\\scaffold.py',
+   'PYMODULE'),
+  ('flask.sessions',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask\\sessions.py',
+   'PYMODULE'),
+  ('flask.signals',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask\\signals.py',
+   'PYMODULE'),
+  ('flask.templating',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask\\templating.py',
+   'PYMODULE'),
+  ('flask.testing',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask\\testing.py',
+   'PYMODULE'),
+  ('flask.typing',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask\\typing.py',
+   'PYMODULE'),
+  ('flask.wrappers',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask\\wrappers.py',
+   'PYMODULE'),
+  ('flask_bcrypt',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask_bcrypt.py',
+   'PYMODULE'),
+  ('flask_login',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask_login\\__init__.py',
+   'PYMODULE'),
+  ('flask_login.__about__',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask_login\\__about__.py',
+   'PYMODULE'),
+  ('flask_login.config',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask_login\\config.py',
+   'PYMODULE'),
+  ('flask_login.login_manager',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask_login\\login_manager.py',
+   'PYMODULE'),
+  ('flask_login.mixins',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask_login\\mixins.py',
+   'PYMODULE'),
+  ('flask_login.signals',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask_login\\signals.py',
+   'PYMODULE'),
+  ('flask_login.test_client',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask_login\\test_client.py',
+   'PYMODULE'),
+  ('flask_login.utils',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask_login\\utils.py',
+   'PYMODULE'),
+  ('flask_sqlalchemy',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask_sqlalchemy\\__init__.py',
+   'PYMODULE'),
+  ('flask_sqlalchemy._compat',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask_sqlalchemy\\_compat.py',
+   'PYMODULE'),
+  ('flask_sqlalchemy.model',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask_sqlalchemy\\model.py',
+   'PYMODULE'),
+  ('flask_sqlalchemy.utils',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask_sqlalchemy\\utils.py',
+   'PYMODULE'),
+  ('flask_wtf',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask_wtf\\__init__.py',
+   'PYMODULE'),
+  ('flask_wtf.csrf',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask_wtf\\csrf.py',
+   'PYMODULE'),
+  ('flask_wtf.form',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask_wtf\\form.py',
+   'PYMODULE'),
+  ('flask_wtf.i18n',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask_wtf\\i18n.py',
+   'PYMODULE'),
+  ('flask_wtf.recaptcha',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask_wtf\\recaptcha\\__init__.py',
+   'PYMODULE'),
+  ('flask_wtf.recaptcha.fields',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask_wtf\\recaptcha\\fields.py',
+   'PYMODULE'),
+  ('flask_wtf.recaptcha.validators',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask_wtf\\recaptcha\\validators.py',
+   'PYMODULE'),
+  ('flask_wtf.recaptcha.widgets',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\flask_wtf\\recaptcha\\widgets.py',
+   'PYMODULE'),
   ('fnmatch', 'C:\\Program Files\\Python311\\Lib\\fnmatch.py', 'PYMODULE'),
   ('fractions', 'C:\\Program Files\\Python311\\Lib\\fractions.py', 'PYMODULE'),
   ('ftplib', 'C:\\Program Files\\Python311\\Lib\\ftplib.py', 'PYMODULE'),
   ('getopt', 'C:\\Program Files\\Python311\\Lib\\getopt.py', 'PYMODULE'),
   ('getpass', 'C:\\Program Files\\Python311\\Lib\\getpass.py', 'PYMODULE'),
   ('gettext', 'C:\\Program Files\\Python311\\Lib\\gettext.py', 'PYMODULE'),
+  ('gevent',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\__init__.py',
+   'PYMODULE'),
+  ('gevent._abstract_linkable',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\_abstract_linkable.py',
+   'PYMODULE'),
+  ('gevent._compat',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\_compat.py',
+   'PYMODULE'),
+  ('gevent._config',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\_config.py',
+   'PYMODULE'),
+  ('gevent._ffi',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\_ffi\\__init__.py',
+   'PYMODULE'),
+  ('gevent._ffi.callback',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\_ffi\\callback.py',
+   'PYMODULE'),
+  ('gevent._ffi.loop',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\_ffi\\loop.py',
+   'PYMODULE'),
+  ('gevent._ffi.watcher',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\_ffi\\watcher.py',
+   'PYMODULE'),
+  ('gevent._fileobjectcommon',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\_fileobjectcommon.py',
+   'PYMODULE'),
+  ('gevent._fileobjectposix',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\_fileobjectposix.py',
+   'PYMODULE'),
+  ('gevent._greenlet_primitives',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\_greenlet_primitives.py',
+   'PYMODULE'),
+  ('gevent._hub_local',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\_hub_local.py',
+   'PYMODULE'),
+  ('gevent._hub_primitives',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\_hub_primitives.py',
+   'PYMODULE'),
+  ('gevent._ident',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\_ident.py',
+   'PYMODULE'),
+  ('gevent._imap',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\_imap.py',
+   'PYMODULE'),
+  ('gevent._interfaces',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\_interfaces.py',
+   'PYMODULE'),
+  ('gevent._monitor',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\_monitor.py',
+   'PYMODULE'),
+  ('gevent._patcher',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\_patcher.py',
+   'PYMODULE'),
+  ('gevent._semaphore',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\_semaphore.py',
+   'PYMODULE'),
+  ('gevent._socket3',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\_socket3.py',
+   'PYMODULE'),
+  ('gevent._socketcommon',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\_socketcommon.py',
+   'PYMODULE'),
+  ('gevent._tblib',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\_tblib.py',
+   'PYMODULE'),
+  ('gevent._threading',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\_threading.py',
+   'PYMODULE'),
+  ('gevent._tracer',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\_tracer.py',
+   'PYMODULE'),
+  ('gevent._util',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\_util.py',
+   'PYMODULE'),
+  ('gevent._waiter',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\_waiter.py',
+   'PYMODULE'),
+  ('gevent.ares',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\ares.py',
+   'PYMODULE'),
+  ('gevent.backdoor',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\backdoor.py',
+   'PYMODULE'),
+  ('gevent.baseserver',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\baseserver.py',
+   'PYMODULE'),
+  ('gevent.builtins',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\builtins.py',
+   'PYMODULE'),
+  ('gevent.contextvars',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\contextvars.py',
+   'PYMODULE'),
+  ('gevent.core',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\core.py',
+   'PYMODULE'),
+  ('gevent.event',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\event.py',
+   'PYMODULE'),
+  ('gevent.events',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\events.py',
+   'PYMODULE'),
+  ('gevent.exceptions',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\exceptions.py',
+   'PYMODULE'),
+  ('gevent.fileobject',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\fileobject.py',
+   'PYMODULE'),
+  ('gevent.greenlet',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\greenlet.py',
+   'PYMODULE'),
+  ('gevent.hub',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\hub.py',
+   'PYMODULE'),
+  ('gevent.libev',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\libev\\__init__.py',
+   'PYMODULE'),
+  ('gevent.libev._corecffi_build',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\libev\\_corecffi_build.py',
+   'PYMODULE'),
+  ('gevent.libev.corecffi',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\libev\\corecffi.py',
+   'PYMODULE'),
+  ('gevent.libev.watcher',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\libev\\watcher.py',
+   'PYMODULE'),
+  ('gevent.libuv',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\libuv\\__init__.py',
+   'PYMODULE'),
+  ('gevent.libuv._corecffi_build',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\libuv\\_corecffi_build.py',
+   'PYMODULE'),
+  ('gevent.libuv.loop',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\libuv\\loop.py',
+   'PYMODULE'),
+  ('gevent.libuv.watcher',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\libuv\\watcher.py',
+   'PYMODULE'),
+  ('gevent.local',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\local.py',
+   'PYMODULE'),
+  ('gevent.lock',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\lock.py',
+   'PYMODULE'),
+  ('gevent.monkey',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\monkey.py',
+   'PYMODULE'),
+  ('gevent.os',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\os.py',
+   'PYMODULE'),
+  ('gevent.pool',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\pool.py',
+   'PYMODULE'),
+  ('gevent.pywsgi',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\pywsgi.py',
+   'PYMODULE'),
+  ('gevent.queue',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\queue.py',
+   'PYMODULE'),
+  ('gevent.resolver',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\resolver\\__init__.py',
+   'PYMODULE'),
+  ('gevent.resolver._addresses',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\resolver\\_addresses.py',
+   'PYMODULE'),
+  ('gevent.resolver._hostsfile',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\resolver\\_hostsfile.py',
+   'PYMODULE'),
+  ('gevent.resolver.ares',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\resolver\\ares.py',
+   'PYMODULE'),
+  ('gevent.resolver.blocking',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\resolver\\blocking.py',
+   'PYMODULE'),
+  ('gevent.resolver.dnspython',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\resolver\\dnspython.py',
+   'PYMODULE'),
+  ('gevent.resolver.thread',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\resolver\\thread.py',
+   'PYMODULE'),
+  ('gevent.resolver_ares',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\resolver_ares.py',
+   'PYMODULE'),
+  ('gevent.resolver_thread',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\resolver_thread.py',
+   'PYMODULE'),
+  ('gevent.select',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\select.py',
+   'PYMODULE'),
+  ('gevent.selectors',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\selectors.py',
+   'PYMODULE'),
+  ('gevent.server',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\server.py',
+   'PYMODULE'),
+  ('gevent.signal',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\signal.py',
+   'PYMODULE'),
+  ('gevent.socket',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\socket.py',
+   'PYMODULE'),
+  ('gevent.ssl',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\ssl.py',
+   'PYMODULE'),
+  ('gevent.subprocess',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\subprocess.py',
+   'PYMODULE'),
+  ('gevent.testing',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\testing\\__init__.py',
+   'PYMODULE'),
+  ('gevent.testing.errorhandler',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\testing\\errorhandler.py',
+   'PYMODULE'),
+  ('gevent.testing.exception',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\testing\\exception.py',
+   'PYMODULE'),
+  ('gevent.testing.flaky',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\testing\\flaky.py',
+   'PYMODULE'),
+  ('gevent.testing.hub',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\testing\\hub.py',
+   'PYMODULE'),
+  ('gevent.testing.leakcheck',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\testing\\leakcheck.py',
+   'PYMODULE'),
+  ('gevent.testing.modules',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\testing\\modules.py',
+   'PYMODULE'),
+  ('gevent.testing.monkey_test',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\testing\\monkey_test.py',
+   'PYMODULE'),
+  ('gevent.testing.openfiles',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\testing\\openfiles.py',
+   'PYMODULE'),
+  ('gevent.testing.params',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\testing\\params.py',
+   'PYMODULE'),
+  ('gevent.testing.patched_tests_setup',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\testing\\patched_tests_setup.py',
+   'PYMODULE'),
+  ('gevent.testing.resources',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\testing\\resources.py',
+   'PYMODULE'),
+  ('gevent.testing.six',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\testing\\six.py',
+   'PYMODULE'),
+  ('gevent.testing.skipping',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\testing\\skipping.py',
+   'PYMODULE'),
+  ('gevent.testing.sockets',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\testing\\sockets.py',
+   'PYMODULE'),
+  ('gevent.testing.support',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\testing\\support.py',
+   'PYMODULE'),
+  ('gevent.testing.switching',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\testing\\switching.py',
+   'PYMODULE'),
+  ('gevent.testing.sysinfo',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\testing\\sysinfo.py',
+   'PYMODULE'),
+  ('gevent.testing.testcase',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\testing\\testcase.py',
+   'PYMODULE'),
+  ('gevent.testing.testrunner',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\testing\\testrunner.py',
+   'PYMODULE'),
+  ('gevent.testing.timing',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\testing\\timing.py',
+   'PYMODULE'),
+  ('gevent.testing.travis',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\testing\\travis.py',
+   'PYMODULE'),
+  ('gevent.testing.util',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\testing\\util.py',
+   'PYMODULE'),
+  ('gevent.tests',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\__init__.py',
+   'PYMODULE'),
+  ('gevent.tests.__main__',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\__main__.py',
+   'PYMODULE'),
+  ('gevent.tests._blocks_at_top_level',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\_blocks_at_top_level.py',
+   'PYMODULE'),
+  ('gevent.tests._import_import_patch',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\_import_import_patch.py',
+   'PYMODULE'),
+  ('gevent.tests._import_patch',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\_import_patch.py',
+   'PYMODULE'),
+  ('gevent.tests._import_wait',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\_import_wait.py',
+   'PYMODULE'),
+  ('gevent.tests._imports_at_top_level',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\_imports_at_top_level.py',
+   'PYMODULE'),
+  ('gevent.tests._imports_imports_at_top_level',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\_imports_imports_at_top_level.py',
+   'PYMODULE'),
+  ('gevent.tests.getaddrinfo_module',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\getaddrinfo_module.py',
+   'PYMODULE'),
+  ('gevent.tests.known_failures',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\known_failures.py',
+   'PYMODULE'),
+  ('gevent.tests.lock_tests',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\lock_tests.py',
+   'PYMODULE'),
+  ('gevent.tests.monkey_package',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\monkey_package\\__init__.py',
+   'PYMODULE'),
+  ('gevent.tests.monkey_package.__main__',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\monkey_package\\__main__.py',
+   'PYMODULE'),
+  ('gevent.tests.monkey_package.issue1526_no_monkey',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\monkey_package\\issue1526_no_monkey.py',
+   'PYMODULE'),
+  ('gevent.tests.monkey_package.issue1526_with_monkey',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\monkey_package\\issue1526_with_monkey.py',
+   'PYMODULE'),
+  ('gevent.tests.monkey_package.issue302monkey',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\monkey_package\\issue302monkey.py',
+   'PYMODULE'),
+  ('gevent.tests.monkey_package.script',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\monkey_package\\script.py',
+   'PYMODULE'),
+  ('gevent.tests.monkey_package.threadpool_monkey_patches',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\monkey_package\\threadpool_monkey_patches.py',
+   'PYMODULE'),
+  ('gevent.tests.monkey_package.threadpool_no_monkey',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\monkey_package\\threadpool_no_monkey.py',
+   'PYMODULE'),
+  ('gevent.tests.test__GreenletExit',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__GreenletExit.py',
+   'PYMODULE'),
+  ('gevent.tests.test___config',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test___config.py',
+   'PYMODULE'),
+  ('gevent.tests.test___ident',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test___ident.py',
+   'PYMODULE'),
+  ('gevent.tests.test___monitor',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test___monitor.py',
+   'PYMODULE'),
+  ('gevent.tests.test___monkey_patching',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test___monkey_patching.py',
+   'PYMODULE'),
+  ('gevent.tests.test__all__',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__all__.py',
+   'PYMODULE'),
+  ('gevent.tests.test__api',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__api.py',
+   'PYMODULE'),
+  ('gevent.tests.test__api_timeout',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__api_timeout.py',
+   'PYMODULE'),
+  ('gevent.tests.test__ares_host_result',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__ares_host_result.py',
+   'PYMODULE'),
+  ('gevent.tests.test__ares_timeout',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__ares_timeout.py',
+   'PYMODULE'),
+  ('gevent.tests.test__backdoor',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__backdoor.py',
+   'PYMODULE'),
+  ('gevent.tests.test__close_backend_fd',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__close_backend_fd.py',
+   'PYMODULE'),
+  ('gevent.tests.test__compat',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__compat.py',
+   'PYMODULE'),
+  ('gevent.tests.test__contextvars',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__contextvars.py',
+   'PYMODULE'),
+  ('gevent.tests.test__core',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__core.py',
+   'PYMODULE'),
+  ('gevent.tests.test__core_async',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__core_async.py',
+   'PYMODULE'),
+  ('gevent.tests.test__core_callback',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__core_callback.py',
+   'PYMODULE'),
+  ('gevent.tests.test__core_fork',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__core_fork.py',
+   'PYMODULE'),
+  ('gevent.tests.test__core_loop_run',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__core_loop_run.py',
+   'PYMODULE'),
+  ('gevent.tests.test__core_stat',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__core_stat.py',
+   'PYMODULE'),
+  ('gevent.tests.test__core_timer',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__core_timer.py',
+   'PYMODULE'),
+  ('gevent.tests.test__core_watcher',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__core_watcher.py',
+   'PYMODULE'),
+  ('gevent.tests.test__destroy',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__destroy.py',
+   'PYMODULE'),
+  ('gevent.tests.test__destroy_default_loop',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__destroy_default_loop.py',
+   'PYMODULE'),
+  ('gevent.tests.test__doctests',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__doctests.py',
+   'PYMODULE'),
+  ('gevent.tests.test__environ',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__environ.py',
+   'PYMODULE'),
+  ('gevent.tests.test__event',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__event.py',
+   'PYMODULE'),
+  ('gevent.tests.test__events',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__events.py',
+   'PYMODULE'),
+  ('gevent.tests.test__example_echoserver',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__example_echoserver.py',
+   'PYMODULE'),
+  ('gevent.tests.test__example_portforwarder',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__example_portforwarder.py',
+   'PYMODULE'),
+  ('gevent.tests.test__example_udp_client',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__example_udp_client.py',
+   'PYMODULE'),
+  ('gevent.tests.test__example_udp_server',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__example_udp_server.py',
+   'PYMODULE'),
+  ('gevent.tests.test__example_webproxy',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__example_webproxy.py',
+   'PYMODULE'),
+  ('gevent.tests.test__example_wsgiserver',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__example_wsgiserver.py',
+   'PYMODULE'),
+  ('gevent.tests.test__example_wsgiserver_ssl',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__example_wsgiserver_ssl.py',
+   'PYMODULE'),
+  ('gevent.tests.test__examples',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__examples.py',
+   'PYMODULE'),
+  ('gevent.tests.test__exc_info',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__exc_info.py',
+   'PYMODULE'),
+  ('gevent.tests.test__execmodules',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__execmodules.py',
+   'PYMODULE'),
+  ('gevent.tests.test__fileobject',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__fileobject.py',
+   'PYMODULE'),
+  ('gevent.tests.test__getaddrinfo_import',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__getaddrinfo_import.py',
+   'PYMODULE'),
+  ('gevent.tests.test__greenio',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__greenio.py',
+   'PYMODULE'),
+  ('gevent.tests.test__greenlet',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__greenlet.py',
+   'PYMODULE'),
+  ('gevent.tests.test__greenletset',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__greenletset.py',
+   'PYMODULE'),
+  ('gevent.tests.test__greenness',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__greenness.py',
+   'PYMODULE'),
+  ('gevent.tests.test__hub',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__hub.py',
+   'PYMODULE'),
+  ('gevent.tests.test__hub_join',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__hub_join.py',
+   'PYMODULE'),
+  ('gevent.tests.test__hub_join_timeout',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__hub_join_timeout.py',
+   'PYMODULE'),
+  ('gevent.tests.test__import_blocking_in_greenlet',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__import_blocking_in_greenlet.py',
+   'PYMODULE'),
+  ('gevent.tests.test__import_wait',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__import_wait.py',
+   'PYMODULE'),
+  ('gevent.tests.test__issue112',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__issue112.py',
+   'PYMODULE'),
+  ('gevent.tests.test__issue1686',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__issue1686.py',
+   'PYMODULE'),
+  ('gevent.tests.test__issue1864',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__issue1864.py',
+   'PYMODULE'),
+  ('gevent.tests.test__issue230',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__issue230.py',
+   'PYMODULE'),
+  ('gevent.tests.test__issue330',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__issue330.py',
+   'PYMODULE'),
+  ('gevent.tests.test__issue467',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__issue467.py',
+   'PYMODULE'),
+  ('gevent.tests.test__issue6',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__issue6.py',
+   'PYMODULE'),
+  ('gevent.tests.test__issue600',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__issue600.py',
+   'PYMODULE'),
+  ('gevent.tests.test__issue607',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__issue607.py',
+   'PYMODULE'),
+  ('gevent.tests.test__issue639',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__issue639.py',
+   'PYMODULE'),
+  ('gevent.tests.test__issue_728',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__issue_728.py',
+   'PYMODULE'),
+  ('gevent.tests.test__issues461_471',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__issues461_471.py',
+   'PYMODULE'),
+  ('gevent.tests.test__iwait',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__iwait.py',
+   'PYMODULE'),
+  ('gevent.tests.test__joinall',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__joinall.py',
+   'PYMODULE'),
+  ('gevent.tests.test__local',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__local.py',
+   'PYMODULE'),
+  ('gevent.tests.test__lock',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__lock.py',
+   'PYMODULE'),
+  ('gevent.tests.test__loop_callback',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__loop_callback.py',
+   'PYMODULE'),
+  ('gevent.tests.test__makefile_ref',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__makefile_ref.py',
+   'PYMODULE'),
+  ('gevent.tests.test__memleak',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__memleak.py',
+   'PYMODULE'),
+  ('gevent.tests.test__monkey',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__monkey.py',
+   'PYMODULE'),
+  ('gevent.tests.test__monkey_builtins_future',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__monkey_builtins_future.py',
+   'PYMODULE'),
+  ('gevent.tests.test__monkey_futures_thread',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__monkey_futures_thread.py',
+   'PYMODULE'),
+  ('gevent.tests.test__monkey_hub_in_thread',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__monkey_hub_in_thread.py',
+   'PYMODULE'),
+  ('gevent.tests.test__monkey_logging',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__monkey_logging.py',
+   'PYMODULE'),
+  ('gevent.tests.test__monkey_module_run',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__monkey_module_run.py',
+   'PYMODULE'),
+  ('gevent.tests.test__monkey_multiple_imports',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__monkey_multiple_imports.py',
+   'PYMODULE'),
+  ('gevent.tests.test__monkey_queue',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__monkey_queue.py',
+   'PYMODULE'),
+  ('gevent.tests.test__monkey_select',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__monkey_select.py',
+   'PYMODULE'),
+  ('gevent.tests.test__monkey_selectors',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__monkey_selectors.py',
+   'PYMODULE'),
+  ('gevent.tests.test__monkey_sigchld',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__monkey_sigchld.py',
+   'PYMODULE'),
+  ('gevent.tests.test__monkey_sigchld_2',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__monkey_sigchld_2.py',
+   'PYMODULE'),
+  ('gevent.tests.test__monkey_sigchld_3',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__monkey_sigchld_3.py',
+   'PYMODULE'),
+  ('gevent.tests.test__monkey_ssl_warning',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__monkey_ssl_warning.py',
+   'PYMODULE'),
+  ('gevent.tests.test__monkey_ssl_warning2',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__monkey_ssl_warning2.py',
+   'PYMODULE'),
+  ('gevent.tests.test__monkey_ssl_warning3',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__monkey_ssl_warning3.py',
+   'PYMODULE'),
+  ('gevent.tests.test__nondefaultloop',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__nondefaultloop.py',
+   'PYMODULE'),
+  ('gevent.tests.test__order',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__order.py',
+   'PYMODULE'),
+  ('gevent.tests.test__os',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__os.py',
+   'PYMODULE'),
+  ('gevent.tests.test__pool',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__pool.py',
+   'PYMODULE'),
+  ('gevent.tests.test__pywsgi',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__pywsgi.py',
+   'PYMODULE'),
+  ('gevent.tests.test__queue',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__queue.py',
+   'PYMODULE'),
+  ('gevent.tests.test__real_greenlet',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__real_greenlet.py',
+   'PYMODULE'),
+  ('gevent.tests.test__refcount',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__refcount.py',
+   'PYMODULE'),
+  ('gevent.tests.test__refcount_core',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__refcount_core.py',
+   'PYMODULE'),
+  ('gevent.tests.test__resolver_dnspython',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__resolver_dnspython.py',
+   'PYMODULE'),
+  ('gevent.tests.test__select',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__select.py',
+   'PYMODULE'),
+  ('gevent.tests.test__selectors',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__selectors.py',
+   'PYMODULE'),
+  ('gevent.tests.test__semaphore',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__semaphore.py',
+   'PYMODULE'),
+  ('gevent.tests.test__server',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__server.py',
+   'PYMODULE'),
+  ('gevent.tests.test__server_pywsgi',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__server_pywsgi.py',
+   'PYMODULE'),
+  ('gevent.tests.test__signal',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__signal.py',
+   'PYMODULE'),
+  ('gevent.tests.test__sleep0',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__sleep0.py',
+   'PYMODULE'),
+  ('gevent.tests.test__socket',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__socket.py',
+   'PYMODULE'),
+  ('gevent.tests.test__socket_close',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__socket_close.py',
+   'PYMODULE'),
+  ('gevent.tests.test__socket_dns',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__socket_dns.py',
+   'PYMODULE'),
+  ('gevent.tests.test__socket_dns6',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__socket_dns6.py',
+   'PYMODULE'),
+  ('gevent.tests.test__socket_errors',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__socket_errors.py',
+   'PYMODULE'),
+  ('gevent.tests.test__socket_ex',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__socket_ex.py',
+   'PYMODULE'),
+  ('gevent.tests.test__socket_send_memoryview',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__socket_send_memoryview.py',
+   'PYMODULE'),
+  ('gevent.tests.test__socket_ssl',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__socket_ssl.py',
+   'PYMODULE'),
+  ('gevent.tests.test__socket_timeout',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__socket_timeout.py',
+   'PYMODULE'),
+  ('gevent.tests.test__socketpair',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__socketpair.py',
+   'PYMODULE'),
+  ('gevent.tests.test__ssl',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__ssl.py',
+   'PYMODULE'),
+  ('gevent.tests.test__subprocess',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__subprocess.py',
+   'PYMODULE'),
+  ('gevent.tests.test__subprocess_interrupted',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__subprocess_interrupted.py',
+   'PYMODULE'),
+  ('gevent.tests.test__subprocess_poll',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__subprocess_poll.py',
+   'PYMODULE'),
+  ('gevent.tests.test__systemerror',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__systemerror.py',
+   'PYMODULE'),
+  ('gevent.tests.test__thread',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__thread.py',
+   'PYMODULE'),
+  ('gevent.tests.test__threading',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__threading.py',
+   'PYMODULE'),
+  ('gevent.tests.test__threading_2',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__threading_2.py',
+   'PYMODULE'),
+  ('gevent.tests.test__threading_before_monkey',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__threading_before_monkey.py',
+   'PYMODULE'),
+  ('gevent.tests.test__threading_holding_lock_while_monkey',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__threading_holding_lock_while_monkey.py',
+   'PYMODULE'),
+  ('gevent.tests.test__threading_monkey_in_thread',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__threading_monkey_in_thread.py',
+   'PYMODULE'),
+  ('gevent.tests.test__threading_native_before_monkey',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__threading_native_before_monkey.py',
+   'PYMODULE'),
+  ('gevent.tests.test__threading_no_monkey',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__threading_no_monkey.py',
+   'PYMODULE'),
+  ('gevent.tests.test__threading_patched_local',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__threading_patched_local.py',
+   'PYMODULE'),
+  ('gevent.tests.test__threading_vs_settrace',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__threading_vs_settrace.py',
+   'PYMODULE'),
+  ('gevent.tests.test__threadpool',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__threadpool.py',
+   'PYMODULE'),
+  ('gevent.tests.test__threadpool_executor_patched',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__threadpool_executor_patched.py',
+   'PYMODULE'),
+  ('gevent.tests.test__timeout',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__timeout.py',
+   'PYMODULE'),
+  ('gevent.tests.test__util',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\tests\\test__util.py',
+   'PYMODULE'),
+  ('gevent.thread',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\thread.py',
+   'PYMODULE'),
+  ('gevent.threading',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\threading.py',
+   'PYMODULE'),
+  ('gevent.threadpool',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\threadpool.py',
+   'PYMODULE'),
+  ('gevent.time',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\time.py',
+   'PYMODULE'),
+  ('gevent.timeout',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\timeout.py',
+   'PYMODULE'),
+  ('gevent.util',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\util.py',
+   'PYMODULE'),
+  ('gevent.win32util',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\gevent\\win32util.py',
+   'PYMODULE'),
   ('glob', 'C:\\Program Files\\Python311\\Lib\\glob.py', 'PYMODULE'),
   ('greenlet',
    'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
@@ -889,6 +2526,10 @@
    'PYMODULE'),
   ('numbers', 'C:\\Program Files\\Python311\\Lib\\numbers.py', 'PYMODULE'),
   ('opcode', 'C:\\Program Files\\Python311\\Lib\\opcode.py', 'PYMODULE'),
+  ('open_port_checker',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\open_port_checker.py',
+   'PYMODULE'),
   ('packaging',
    'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
    'teste\\venv\\Lib\\site-packages\\packaging\\__init__.py',
@@ -1185,6 +2826,7 @@
    'C:\\Program Files\\Python311\\Lib\\rlcompleter.py',
    'PYMODULE'),
   ('runpy', 'C:\\Program Files\\Python311\\Lib\\runpy.py', 'PYMODULE'),
+  ('sched', 'C:\\Program Files\\Python311\\Lib\\sched.py', 'PYMODULE'),
   ('secrets', 'C:\\Program Files\\Python311\\Lib\\secrets.py', 'PYMODULE'),
   ('selectors', 'C:\\Program Files\\Python311\\Lib\\selectors.py', 'PYMODULE'),
   ('setuptools',
@@ -1811,6 +3453,687 @@
   ('socketserver',
    'C:\\Program Files\\Python311\\Lib\\socketserver.py',
    'PYMODULE'),
+  ('sqlalchemy',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.connectors',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\connectors\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.connectors.mxodbc',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\connectors\\mxodbc.py',
+   'PYMODULE'),
+  ('sqlalchemy.connectors.pyodbc',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\connectors\\pyodbc.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.firebird',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\firebird\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.firebird.base',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\firebird\\base.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.firebird.fdb',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\firebird\\fdb.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.firebird.kinterbasdb',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\firebird\\kinterbasdb.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mssql',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\mssql\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mssql.base',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\mssql\\base.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mssql.information_schema',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\mssql\\information_schema.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mssql.json',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\mssql\\json.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mssql.mxodbc',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\mssql\\mxodbc.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mssql.pymssql',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\mssql\\pymssql.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mssql.pyodbc',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\mssql\\pyodbc.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.aiomysql',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\aiomysql.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.asyncmy',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\asyncmy.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.base',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\base.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.cymysql',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\cymysql.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.dml',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\dml.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.enumerated',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\enumerated.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.expression',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\expression.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.json',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\json.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.mariadbconnector',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\mariadbconnector.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.mysqlconnector',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\mysqlconnector.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.mysqldb',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\mysqldb.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.oursql',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\oursql.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.pymysql',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\pymysql.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.pyodbc',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\pyodbc.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.reflection',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\reflection.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.reserved_words',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\reserved_words.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.types',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\types.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.oracle',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\oracle\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.oracle.base',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\oracle\\base.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.oracle.cx_oracle',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\oracle\\cx_oracle.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.array',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\array.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.asyncpg',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\asyncpg.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.base',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\base.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.dml',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\dml.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.ext',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\ext.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.hstore',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\hstore.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.json',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\json.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.pg8000',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\pg8000.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.psycopg2',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\psycopg2.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.psycopg2cffi',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\psycopg2cffi.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.pygresql',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\pygresql.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.pypostgresql',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\pypostgresql.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.ranges',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\ranges.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.sqlite',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\sqlite\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.sqlite.aiosqlite',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\sqlite\\aiosqlite.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.sqlite.base',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\sqlite\\base.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.sqlite.dml',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\sqlite\\dml.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.sqlite.json',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\sqlite\\json.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.sqlite.pysqlcipher',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\sqlite\\pysqlcipher.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.sqlite.pysqlite',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\sqlite\\pysqlite.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.sybase',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\sybase\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.sybase.base',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\sybase\\base.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.sybase.pyodbc',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\sybase\\pyodbc.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.sybase.pysybase',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\dialects\\sybase\\pysybase.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\engine\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.base',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\engine\\base.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.characteristics',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\engine\\characteristics.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.create',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\engine\\create.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.cursor',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\engine\\cursor.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.default',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\engine\\default.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.events',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\engine\\events.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.interfaces',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\engine\\interfaces.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.mock',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\engine\\mock.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.reflection',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\engine\\reflection.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.result',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\engine\\result.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.row',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\engine\\row.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.url',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\engine\\url.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.util',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\engine\\util.py',
+   'PYMODULE'),
+  ('sqlalchemy.event',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\event\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.event.api',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\event\\api.py',
+   'PYMODULE'),
+  ('sqlalchemy.event.attr',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\event\\attr.py',
+   'PYMODULE'),
+  ('sqlalchemy.event.base',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\event\\base.py',
+   'PYMODULE'),
+  ('sqlalchemy.event.legacy',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\event\\legacy.py',
+   'PYMODULE'),
+  ('sqlalchemy.event.registry',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\event\\registry.py',
+   'PYMODULE'),
+  ('sqlalchemy.events',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\events.py',
+   'PYMODULE'),
+  ('sqlalchemy.exc',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\exc.py',
+   'PYMODULE'),
+  ('sqlalchemy.ext',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\ext\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.ext.baked',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\ext\\baked.py',
+   'PYMODULE'),
+  ('sqlalchemy.ext.compiler',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\ext\\compiler.py',
+   'PYMODULE'),
+  ('sqlalchemy.ext.declarative',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\ext\\declarative\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.ext.declarative.extensions',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\ext\\declarative\\extensions.py',
+   'PYMODULE'),
+  ('sqlalchemy.future',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\future\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.future.engine',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\future\\engine.py',
+   'PYMODULE'),
+  ('sqlalchemy.inspection',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\inspection.py',
+   'PYMODULE'),
+  ('sqlalchemy.log',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\log.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.attributes',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\attributes.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.base',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\base.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.clsregistry',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\clsregistry.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.collections',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\collections.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.context',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\context.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.decl_api',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\decl_api.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.decl_base',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\decl_base.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.dependency',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\dependency.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.descriptor_props',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\descriptor_props.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.dynamic',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\dynamic.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.evaluator',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\evaluator.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.events',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\events.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.exc',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\exc.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.identity',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\identity.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.instrumentation',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\instrumentation.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.interfaces',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\interfaces.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.loading',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\loading.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.mapper',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\mapper.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.path_registry',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\path_registry.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.persistence',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\persistence.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.properties',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\properties.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.query',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\query.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.relationships',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\relationships.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.scoping',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\scoping.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.session',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\session.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.state',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\state.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.strategies',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\strategies.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.strategy_options',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\strategy_options.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.sync',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\sync.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.unitofwork',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\unitofwork.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.util',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\util.py',
+   'PYMODULE'),
+  ('sqlalchemy.pool',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\pool\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.pool.base',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\pool\\base.py',
+   'PYMODULE'),
+  ('sqlalchemy.pool.dbapi_proxy',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\pool\\dbapi_proxy.py',
+   'PYMODULE'),
+  ('sqlalchemy.pool.events',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\pool\\events.py',
+   'PYMODULE'),
+  ('sqlalchemy.pool.impl',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\pool\\impl.py',
+   'PYMODULE'),
+  ('sqlalchemy.processors',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\processors.py',
+   'PYMODULE'),
+  ('sqlalchemy.schema',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\schema.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\sql\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.annotation',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\sql\\annotation.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.base',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\sql\\base.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.coercions',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\sql\\coercions.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.compiler',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\sql\\compiler.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.crud',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\sql\\crud.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.ddl',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\sql\\ddl.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.default_comparator',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\sql\\default_comparator.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.dml',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\sql\\dml.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.elements',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\sql\\elements.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.events',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\sql\\events.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.expression',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\sql\\expression.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.functions',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\sql\\functions.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.lambdas',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\sql\\lambdas.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.naming',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\sql\\naming.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.operators',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\sql\\operators.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.roles',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\sql\\roles.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.schema',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\sql\\schema.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.selectable',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\sql\\selectable.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.sqltypes',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\sql\\sqltypes.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.traversals',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\sql\\traversals.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.type_api',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\sql\\type_api.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.util',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\sql\\util.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.visitors',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\sql\\visitors.py',
+   'PYMODULE'),
+  ('sqlalchemy.types',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\types.py',
+   'PYMODULE'),
+  ('sqlalchemy.util',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\util\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.util._collections',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\util\\_collections.py',
+   'PYMODULE'),
+  ('sqlalchemy.util._compat_py3k',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\util\\_compat_py3k.py',
+   'PYMODULE'),
+  ('sqlalchemy.util._concurrency_py3k',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\util\\_concurrency_py3k.py',
+   'PYMODULE'),
+  ('sqlalchemy.util._preloaded',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\util\\_preloaded.py',
+   'PYMODULE'),
+  ('sqlalchemy.util.compat',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\util\\compat.py',
+   'PYMODULE'),
+  ('sqlalchemy.util.concurrency',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\util\\concurrency.py',
+   'PYMODULE'),
+  ('sqlalchemy.util.deprecations',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\util\\deprecations.py',
+   'PYMODULE'),
+  ('sqlalchemy.util.langhelpers',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\util\\langhelpers.py',
+   'PYMODULE'),
+  ('sqlalchemy.util.queue',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\util\\queue.py',
+   'PYMODULE'),
+  ('sqlalchemy.util.topological',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\sqlalchemy\\util\\topological.py',
+   'PYMODULE'),
+  ('sqlite3',
+   'C:\\Program Files\\Python311\\Lib\\sqlite3\\__init__.py',
+   'PYMODULE'),
+  ('sqlite3.dbapi2',
+   'C:\\Program Files\\Python311\\Lib\\sqlite3\\dbapi2.py',
+   'PYMODULE'),
+  ('sqlite3.dump',
+   'C:\\Program Files\\Python311\\Lib\\sqlite3\\dump.py',
+   'PYMODULE'),
   ('sqlparse',
    'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
    'teste\\venv\\Lib\\site-packages\\sqlparse\\__init__.py',
@@ -1905,10 +4228,78 @@
   ('sysconfig', 'C:\\Program Files\\Python311\\Lib\\sysconfig.py', 'PYMODULE'),
   ('tarfile', 'C:\\Program Files\\Python311\\Lib\\tarfile.py', 'PYMODULE'),
   ('tempfile', 'C:\\Program Files\\Python311\\Lib\\tempfile.py', 'PYMODULE'),
+  ('test', 'C:\\Program Files\\Python311\\Lib\\test\\__init__.py', 'PYMODULE'),
+  ('test.libregrtest',
+   'C:\\Program Files\\Python311\\Lib\\test\\libregrtest\\__init__.py',
+   'PYMODULE'),
+  ('test.libregrtest.cmdline',
+   'C:\\Program Files\\Python311\\Lib\\test\\libregrtest\\cmdline.py',
+   'PYMODULE'),
+  ('test.libregrtest.main',
+   'C:\\Program Files\\Python311\\Lib\\test\\libregrtest\\main.py',
+   'PYMODULE'),
+  ('test.libregrtest.pgo',
+   'C:\\Program Files\\Python311\\Lib\\test\\libregrtest\\pgo.py',
+   'PYMODULE'),
+  ('test.libregrtest.refleak',
+   'C:\\Program Files\\Python311\\Lib\\test\\libregrtest\\refleak.py',
+   'PYMODULE'),
+  ('test.libregrtest.runtest',
+   'C:\\Program Files\\Python311\\Lib\\test\\libregrtest\\runtest.py',
+   'PYMODULE'),
+  ('test.libregrtest.runtest_mp',
+   'C:\\Program Files\\Python311\\Lib\\test\\libregrtest\\runtest_mp.py',
+   'PYMODULE'),
+  ('test.libregrtest.save_env',
+   'C:\\Program Files\\Python311\\Lib\\test\\libregrtest\\save_env.py',
+   'PYMODULE'),
+  ('test.libregrtest.setup',
+   'C:\\Program Files\\Python311\\Lib\\test\\libregrtest\\setup.py',
+   'PYMODULE'),
+  ('test.libregrtest.utils',
+   'C:\\Program Files\\Python311\\Lib\\test\\libregrtest\\utils.py',
+   'PYMODULE'),
+  ('test.libregrtest.win_utils',
+   'C:\\Program Files\\Python311\\Lib\\test\\libregrtest\\win_utils.py',
+   'PYMODULE'),
+  ('test.support',
+   'C:\\Program Files\\Python311\\Lib\\test\\support\\__init__.py',
+   'PYMODULE'),
+  ('test.support.import_helper',
+   'C:\\Program Files\\Python311\\Lib\\test\\support\\import_helper.py',
+   'PYMODULE'),
+  ('test.support.os_helper',
+   'C:\\Program Files\\Python311\\Lib\\test\\support\\os_helper.py',
+   'PYMODULE'),
+  ('test.support.script_helper',
+   'C:\\Program Files\\Python311\\Lib\\test\\support\\script_helper.py',
+   'PYMODULE'),
+  ('test.support.socket_helper',
+   'C:\\Program Files\\Python311\\Lib\\test\\support\\socket_helper.py',
+   'PYMODULE'),
+  ('test.support.testresult',
+   'C:\\Program Files\\Python311\\Lib\\test\\support\\testresult.py',
+   'PYMODULE'),
+  ('test.support.threading_helper',
+   'C:\\Program Files\\Python311\\Lib\\test\\support\\threading_helper.py',
+   'PYMODULE'),
+  ('test.support.warnings_helper',
+   'C:\\Program Files\\Python311\\Lib\\test\\support\\warnings_helper.py',
+   'PYMODULE'),
+  ('test.test_support',
+   'C:\\Program Files\\Python311\\Lib\\test\\test_support.py',
+   'PYMODULE'),
   ('textwrap', 'C:\\Program Files\\Python311\\Lib\\textwrap.py', 'PYMODULE'),
   ('threading', 'C:\\Program Files\\Python311\\Lib\\threading.py', 'PYMODULE'),
+  ('tkinter',
+   'C:\\Program Files\\Python311\\Lib\\tkinter\\__init__.py',
+   'PYMODULE'),
+  ('tkinter.constants',
+   'C:\\Program Files\\Python311\\Lib\\tkinter\\constants.py',
+   'PYMODULE'),
   ('token', 'C:\\Program Files\\Python311\\Lib\\token.py', 'PYMODULE'),
   ('tokenize', 'C:\\Program Files\\Python311\\Lib\\tokenize.py', 'PYMODULE'),
+  ('trace', 'C:\\Program Files\\Python311\\Lib\\trace.py', 'PYMODULE'),
   ('tracemalloc',
    'C:\\Program Files\\Python311\\Lib\\tracemalloc.py',
    'PYMODULE'),
@@ -1973,7 +4364,224 @@
   ('webbrowser',
    'C:\\Program Files\\Python311\\Lib\\webbrowser.py',
    'PYMODULE'),
+  ('werkzeug',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\werkzeug\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug._internal',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\werkzeug\\_internal.py',
+   'PYMODULE'),
+  ('werkzeug._reloader',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\werkzeug\\_reloader.py',
+   'PYMODULE'),
+  ('werkzeug.datastructures',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\werkzeug\\datastructures.py',
+   'PYMODULE'),
+  ('werkzeug.debug',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\werkzeug\\debug\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.debug.console',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\werkzeug\\debug\\console.py',
+   'PYMODULE'),
+  ('werkzeug.debug.repr',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\werkzeug\\debug\\repr.py',
+   'PYMODULE'),
+  ('werkzeug.debug.tbtools',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\werkzeug\\debug\\tbtools.py',
+   'PYMODULE'),
+  ('werkzeug.exceptions',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\werkzeug\\exceptions.py',
+   'PYMODULE'),
+  ('werkzeug.formparser',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\werkzeug\\formparser.py',
+   'PYMODULE'),
+  ('werkzeug.http',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\werkzeug\\http.py',
+   'PYMODULE'),
+  ('werkzeug.local',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\werkzeug\\local.py',
+   'PYMODULE'),
+  ('werkzeug.middleware',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\werkzeug\\middleware\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.middleware.shared_data',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\werkzeug\\middleware\\shared_data.py',
+   'PYMODULE'),
+  ('werkzeug.routing',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\werkzeug\\routing.py',
+   'PYMODULE'),
+  ('werkzeug.sansio',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\werkzeug\\sansio\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.sansio.multipart',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\werkzeug\\sansio\\multipart.py',
+   'PYMODULE'),
+  ('werkzeug.sansio.request',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\werkzeug\\sansio\\request.py',
+   'PYMODULE'),
+  ('werkzeug.sansio.response',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\werkzeug\\sansio\\response.py',
+   'PYMODULE'),
+  ('werkzeug.sansio.utils',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\werkzeug\\sansio\\utils.py',
+   'PYMODULE'),
+  ('werkzeug.security',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\werkzeug\\security.py',
+   'PYMODULE'),
+  ('werkzeug.serving',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\werkzeug\\serving.py',
+   'PYMODULE'),
+  ('werkzeug.test',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\werkzeug\\test.py',
+   'PYMODULE'),
+  ('werkzeug.urls',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\werkzeug\\urls.py',
+   'PYMODULE'),
+  ('werkzeug.user_agent',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\werkzeug\\user_agent.py',
+   'PYMODULE'),
+  ('werkzeug.utils',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\werkzeug\\utils.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers.request',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\werkzeug\\wrappers\\request.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers.response',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\werkzeug\\wrappers\\response.py',
+   'PYMODULE'),
+  ('werkzeug.wsgi',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\werkzeug\\wsgi.py',
+   'PYMODULE'),
+  ('wsgiref',
+   'C:\\Program Files\\Python311\\Lib\\wsgiref\\__init__.py',
+   'PYMODULE'),
+  ('wsgiref.validate',
+   'C:\\Program Files\\Python311\\Lib\\wsgiref\\validate.py',
+   'PYMODULE'),
+  ('wtforms',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\wtforms\\__init__.py',
+   'PYMODULE'),
+  ('wtforms.csrf',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\wtforms\\csrf\\__init__.py',
+   'PYMODULE'),
+  ('wtforms.csrf.core',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\wtforms\\csrf\\core.py',
+   'PYMODULE'),
+  ('wtforms.csrf.session',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\wtforms\\csrf\\session.py',
+   'PYMODULE'),
+  ('wtforms.fields',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\wtforms\\fields\\__init__.py',
+   'PYMODULE'),
+  ('wtforms.fields.choices',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\wtforms\\fields\\choices.py',
+   'PYMODULE'),
+  ('wtforms.fields.core',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\wtforms\\fields\\core.py',
+   'PYMODULE'),
+  ('wtforms.fields.datetime',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\wtforms\\fields\\datetime.py',
+   'PYMODULE'),
+  ('wtforms.fields.form',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\wtforms\\fields\\form.py',
+   'PYMODULE'),
+  ('wtforms.fields.list',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\wtforms\\fields\\list.py',
+   'PYMODULE'),
+  ('wtforms.fields.numeric',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\wtforms\\fields\\numeric.py',
+   'PYMODULE'),
+  ('wtforms.fields.simple',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\wtforms\\fields\\simple.py',
+   'PYMODULE'),
+  ('wtforms.form',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\wtforms\\form.py',
+   'PYMODULE'),
+  ('wtforms.i18n',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\wtforms\\i18n.py',
+   'PYMODULE'),
+  ('wtforms.meta',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\wtforms\\meta.py',
+   'PYMODULE'),
+  ('wtforms.utils',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\wtforms\\utils.py',
+   'PYMODULE'),
+  ('wtforms.validators',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\wtforms\\validators.py',
+   'PYMODULE'),
+  ('wtforms.widgets',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\wtforms\\widgets\\__init__.py',
+   'PYMODULE'),
+  ('wtforms.widgets.core',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\wtforms\\widgets\\core.py',
+   'PYMODULE'),
   ('xml', 'C:\\Program Files\\Python311\\Lib\\xml\\__init__.py', 'PYMODULE'),
+  ('xml.etree',
+   'C:\\Program Files\\Python311\\Lib\\xml\\etree\\__init__.py',
+   'PYMODULE'),
+  ('xml.etree.ElementInclude',
+   'C:\\Program Files\\Python311\\Lib\\xml\\etree\\ElementInclude.py',
+   'PYMODULE'),
+  ('xml.etree.ElementPath',
+   'C:\\Program Files\\Python311\\Lib\\xml\\etree\\ElementPath.py',
+   'PYMODULE'),
+  ('xml.etree.ElementTree',
+   'C:\\Program Files\\Python311\\Lib\\xml\\etree\\ElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.cElementTree',
+   'C:\\Program Files\\Python311\\Lib\\xml\\etree\\cElementTree.py',
+   'PYMODULE'),
   ('xml.parsers',
    'C:\\Program Files\\Python311\\Lib\\xml\\parsers\\__init__.py',
    'PYMODULE'),
@@ -2009,4 +4617,41 @@
   ('zipp',
    'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
    'teste\\venv\\Lib\\site-packages\\zipp.py',
+   'PYMODULE'),
+  ('zope', '-', 'PYMODULE'),
+  ('zope.event',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\zope\\event\\__init__.py',
+   'PYMODULE'),
+  ('zope.interface',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\zope\\interface\\__init__.py',
+   'PYMODULE'),
+  ('zope.interface._compat',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\zope\\interface\\_compat.py',
+   'PYMODULE'),
+  ('zope.interface.declarations',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\zope\\interface\\declarations.py',
+   'PYMODULE'),
+  ('zope.interface.exceptions',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\zope\\interface\\exceptions.py',
+   'PYMODULE'),
+  ('zope.interface.interface',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\zope\\interface\\interface.py',
+   'PYMODULE'),
+  ('zope.interface.interfaces',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\zope\\interface\\interfaces.py',
+   'PYMODULE'),
+  ('zope.interface.ro',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\zope\\interface\\ro.py',
+   'PYMODULE'),
+  ('zope.interface.verify',
+   'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask '
+   'teste\\venv\\Lib\\site-packages\\zope\\interface\\verify.py',
    'PYMODULE')])

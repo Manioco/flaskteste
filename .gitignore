@@ -1479,3 +1479,16 @@ __pycache__/app.cpython-311.pyc
 __pycache__
 testeqlite3.py
 meu_app.spec
+pyinstaller command.txt
+build
+dist
+app.log
+meu_app.spec
+build/meu_app/Analysis-00.toc
+build/meu_app/EXE-00.toc
+build/meu_app/meu_app.pkg
+build/meu_app/PKG-00.toc
+build/meu_app/PYZ-00.pyz
+build/meu_app/PYZ-00.toc
+build/meu_app/warn-meu_app.txt
+build/meu_app/xref-meu_app.html
