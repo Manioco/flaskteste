@@ -1478,3 +1478,4 @@ example.db
 __pycache__/app.cpython-311.pyc
 __pycache__
 testeqlite3.py
+meu_app.spec

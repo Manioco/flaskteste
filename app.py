@@ -10,6 +10,8 @@ from flask_bcrypt import Bcrypt
 from open_port_checker import is_port_available
 import logging
 import asyncio
+from gevent.pywsgi import WSGIServer
+
 
 
 logging.basicConfig(filename='app.log', level=logging.INFO)  # Configuração do log
@@ -55,7 +57,7 @@ class RegisterForm(FlaskForm):
 
 
 class LoginForm(FlaskForm):
-    username = StringField(validators=[InputRequired(), Length(min=4, max=20)], render_kw={"placeholder": "Username"})
+    username = StringField(validators=[InputRequired(), Length(min=3, max=20)], render_kw={"placeholder": "Username"})
     
     password = PasswordField(validators=[InputRequired(), Length(min=4, max=20)], render_kw={"placeholder": "Password"})
 
@@ -80,11 +82,11 @@ async def shutdown():
     loop.stop()
 
 
-@app.route('/shutdown', methods=['POST'])
+@app.route('/shutdown', methods=['GET', 'POST'])
 def shutdown_request():
     print("Encerrando o servidor...")
-    asyncio.ensure_future(shutdown())
-    return 'Servidor está sendo encerrado...'
+    asyncio.run(shutdown())  # Chama a função shutdown de forma assíncrona
+    return render_template('shutdown.html')
 
 
 @app.route('/login', methods=['GET', 'POST']) 
@@ -131,13 +133,18 @@ def logout():
 if __name__ == "__main__":
     logging.info("Aplicativo iniciado")  # Loga a mensagem quando o aplicativo é iniciado
     
+    port = None
     for port_i in range(5000, 8000):
         if is_port_available(port_i):
             port = port_i
             break
         else:
             continue
-    app.run(debug=True, host="localhost", port=port)
 
-    print("The app is running!")
-    time.sleep(60)
+    if port:
+        # Inicia o servidor Gevent na porta encontrada
+        http_server = WSGIServer(('0.0.0.0', port), app)
+        logging.info(f"Servidor Gevent iniciado na porta {port}")
+        http_server.serve_forever()
+    else:
+        logging.error("Nenhuma porta disponível para iniciar o servidor.")
