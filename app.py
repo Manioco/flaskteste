@@ -9,6 +9,7 @@ from wtforms.validators import InputRequired, Length, ValidationError
 from flask_bcrypt import Bcrypt
 from open_port_checker import is_port_available
 import logging
+import asyncio
 
 
 logging.basicConfig(filename='app.log', level=logging.INFO)  # Configuração do log
@@ -69,6 +70,21 @@ class LoginForm(FlaskForm):
 @app.route('/')
 def home():
     return render_template('home.html')
+
+
+async def shutdown():
+    loop = asyncio.get_event_loop()
+    tasks = [task for task in asyncio.all_tasks() if task is not asyncio.current_task()]
+    for task in tasks:
+        task.cancel()
+    loop.stop()
+
+
+@app.route('/shutdown', methods=['POST'])
+def shutdown_request():
+    print("Encerrando o servidor...")
+    asyncio.ensure_future(shutdown())
+    return 'Servidor está sendo encerrado...'
 
 
 @app.route('/login', methods=['GET', 'POST']) 
