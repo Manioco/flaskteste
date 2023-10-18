@@ -222,3 +222,5 @@ Traceback (most recent call last):
 wtforms.validators.ValidationError: Username and password do not match!
 INFO:root:Aplicativo iniciado
 INFO:root:Servidor Gevent iniciado na porta 5000
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
