@@ -7,7 +7,14 @@ Dashboard
 {% block content %}
 <h1>You are Logged in</h1>
 <br>
-<h1>Dashboard:</h1>
+<h1>Dashboard - usuários cadastrados:</h1>
+<br>
+<ul>
+    {% for i in items %}
+        <li>{{i.username}}</li>
+    {% endfor %}
+</ul>
+<br>
 <br>
 <a href="{{url_for('logout')}}">Logout.</a><br>
 {% endblock %}

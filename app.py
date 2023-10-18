@@ -13,7 +13,6 @@ import asyncio
 from gevent.pywsgi import WSGIServer
 
 
-
 logging.basicConfig(filename='app.log', level=logging.INFO)  # Configuração do log
 
 basedir = os.path.abspath(os.path.dirname(__file__))
@@ -92,11 +91,15 @@ def shutdown_request():
 @app.route('/login', methods=['GET', 'POST']) 
 def login():
     form = LoginForm()
-
+    
+    print("Login page")
     if form.validate_on_submit():
+        print("Login attempt")
         # Check if the user exists
+        # name = form.username.data.lower().strip()
         user = User.query.filter_by(username=form.username.data).first()
         if user:
+            print("User exists")
             if bcrypt.check_password_hash(user.password, form.password.data):
                 login_user(user)
                 return redirect(url_for('dashboard'))
@@ -109,7 +112,8 @@ def register():
 
     if form.validate_on_submit():
         hashed_password = bcrypt.generate_password_hash(form.password.data).decode('utf-8')
-        new_user = User(username=form.username.data, password=hashed_password)
+        name = form.username.data.lower().strip()
+        new_user = User(username=name, password=hashed_password)
         db.session.add(new_user)
         db.session.commit()
         return redirect(url_for('login'))
@@ -120,7 +124,9 @@ def register():
 @app.route('/dashboard', methods=['GET', 'POST'])
 @login_required
 def dashboard():
-    return render_template('dashboard.html')
+    user_names = User.query.all()
+
+    return render_template('dashboard.html', items=user_names)
 
 
 @app.route('/logout')
@@ -145,6 +151,17 @@ if __name__ == "__main__":
         # Inicia o servidor Gevent na porta encontrada
         http_server = WSGIServer(('0.0.0.0', port), app)
         logging.info(f"Servidor Gevent iniciado na porta {port}")
+        print("\n\n\n")
+        print("##### VVHHHHHHHVV #####")
+        print("#####   VVHHHVV   #####")
+        print("#####     VHV     #####")
+        print("#####      V      #####")
+        print("\n")
+        print(f"To open the app, go to:")
+        print(f"localhost:{port}/")
+        print("\n")
+        print(f"Para abrir o aplicativo, acesse:")
+        print(f"localhost:{port}/")
         http_server.serve_forever()
     else:
         logging.error("Nenhuma porta disponível para iniciar o servidor.")

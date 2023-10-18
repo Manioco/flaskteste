@@ -84,3 +84,141 @@ INFO:root:Aplicativo iniciado
 INFO:root:Servidor Gevent iniciado na porta 5000
 INFO:root:Aplicativo iniciado
 INFO:root:Servidor Gevent iniciado na porta 5000
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+ERROR:app:Exception on /register [POST]
+Traceback (most recent call last):
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\app.py", line 114, in register
+    new_user = User(username.lower().strip(), password.lower().strip())
+TypeError: __init__() takes 1 positional argument but 3 were given
+ERROR:app:Exception on /register [POST]
+Traceback (most recent call last):
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\app.py", line 114, in register
+    new_user = User(username.lower().strip(), password.lower().strip())
+TypeError: __init__() takes 1 positional argument but 3 were given
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+ERROR:app:Exception on /login [POST]
+Traceback (most recent call last):
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\app.py", line 98, in login
+    user = User.query.filter_by(username).first()
+TypeError: Query.filter_by() takes 1 positional argument but 2 were given
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+ERROR:app:Exception on /register [POST]
+Traceback (most recent call last):
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\app.py", line 116, in register
+    new_user = User(username, password)
+TypeError: __init__() takes 1 positional argument but 3 were given
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+ERROR:app:Exception on /register [POST]
+Traceback (most recent call last):
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\app.py", line 118, in register
+    new_user = User(username, password)
+TypeError: __init__() takes 1 positional argument but 3 were given
+ERROR:app:Exception on /register [POST]
+Traceback (most recent call last):
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\app.py", line 118, in register
+    new_user = User(username, password)
+TypeError: __init__() takes 1 positional argument but 3 were given
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+ERROR:app:Exception on /login [POST]
+Traceback (most recent call last):
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\app.py", line 99, in login
+    user = User.query.filter_by(username).first()
+TypeError: Query.filter_by() takes 1 positional argument but 2 were given
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+ERROR:app:Exception on /login [POST]
+Traceback (most recent call last):
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\app.py", line 104, in login
+    raise ValidationError("Username and password do not match!")
+wtforms.validators.ValidationError: Username and password do not match!
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
