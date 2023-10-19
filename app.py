@@ -5,12 +5,13 @@ from flask_login import UserMixin, login_user, LoginManager, login_required, log
 import os
 from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, SubmitField
-from wtforms.validators import InputRequired, Length, ValidationError
+from wtforms.validators import InputRequired, Length, ValidationError, Regexp
 from flask_bcrypt import Bcrypt
 from open_port_checker import is_port_available
 import logging
 import asyncio
 from gevent.pywsgi import WSGIServer
+from flask_migrate import Migrate
 
 
 logging.basicConfig(filename='app.log', level=logging.INFO)  # Configuração do log
@@ -23,6 +24,8 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'da
 app.config['SECRET_KEY'] = "mysecretkey"
 db = SQLAlchemy(app) # Create the database instance
 # db.init_app(app) # Initialize the database instance
+migrate = Migrate(app, db)
+
 
 login_manager = LoginManager() # Allow the app and flask work together
 login_manager.init_app(app)
@@ -43,7 +46,11 @@ class User(db.Model, UserMixin):
 
 
 class RegisterForm(FlaskForm):
-    username = StringField(validators=[InputRequired(), Length(min=4, max=20)], render_kw={"placeholder": "Username"})
+    username = StringField(
+        validators=[InputRequired(), 
+                    Length(min=3, max=20),
+                    Regexp("^[a-z]+$", message="Username must contain only lowercase letters")], 
+                    render_kw={"placeholder": "Username"})
     
     password = PasswordField(validators=[InputRequired(), Length(min=4, max=20)], render_kw={"placeholder": "Password"})
 
@@ -112,7 +119,7 @@ def register():
 
     if form.validate_on_submit():
         hashed_password = bcrypt.generate_password_hash(form.password.data).decode('utf-8')
-        name = form.username.data.lower().strip()
+        name = form.username.data.strip()
         new_user = User(username=name, password=hashed_password)
         db.session.add(new_user)
         db.session.commit()
