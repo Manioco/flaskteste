@@ -230,3 +230,244 @@ INFO:root:Aplicativo iniciado
 INFO:root:Servidor Gevent iniciado na porta 5000
 INFO:root:Aplicativo iniciado
 INFO:root:Servidor Gevent iniciado na porta 5000
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+ERROR:app:Exception on /dashboard [GET]
+Traceback (most recent call last):
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1819, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\engine\default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: client_items
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask_login\utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\app.py", line 157, in dashboard
+    client_items = ClientItem.query.all()
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\orm\query.py", line 2768, in all
+    return self._iter().all()
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\orm\query.py", line 2903, in _iter
+    result = self.session.execute(
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\orm\session.py", line 1692, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1631, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\sql\elements.py", line 325, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1498, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1862, in _execute_context
+    self._handle_dbapi_exception(
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\engine\base.py", line 2043, in _handle_dbapi_exception
+    util.raise_(
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1819, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\engine\default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: client_items
+[SQL: SELECT client_items.id AS client_items_id, client_items.cpf AS client_items_cpf, client_items.name AS client_items_name, client_items.birthday AS client_items_birthday, client_items.client_id AS client_items_client_id 
+FROM client_items]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+ERROR:app:Exception on /dashboard [GET]
+Traceback (most recent call last):
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1819, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\engine\default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: client_items
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask_login\utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\app.py", line 157, in dashboard
+    client_items = ClientItem.query.all()
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\orm\query.py", line 2768, in all
+    return self._iter().all()
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\orm\query.py", line 2903, in _iter
+    result = self.session.execute(
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\orm\session.py", line 1692, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1631, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\sql\elements.py", line 325, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1498, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1862, in _execute_context
+    self._handle_dbapi_exception(
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\engine\base.py", line 2043, in _handle_dbapi_exception
+    util.raise_(
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1819, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\engine\default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: client_items
+[SQL: SELECT client_items.id AS client_items_id, client_items.cpf AS client_items_cpf, client_items.name AS client_items_name, client_items.birthday AS client_items_birthday, client_items.client_id AS client_items_client_id 
+FROM client_items]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+ERROR:app:Exception on /dashboard [GET]
+Traceback (most recent call last):
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1819, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\engine\default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: client_items
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask_login\utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\app.py", line 157, in dashboard
+    client_items = ClientItem.query.all()
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\orm\query.py", line 2768, in all
+    return self._iter().all()
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\orm\query.py", line 2903, in _iter
+    result = self.session.execute(
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\orm\session.py", line 1692, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1631, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\sql\elements.py", line 325, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1498, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1862, in _execute_context
+    self._handle_dbapi_exception(
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\engine\base.py", line 2043, in _handle_dbapi_exception
+    util.raise_(
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1819, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\engine\default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: client_items
+[SQL: SELECT client_items.id AS client_items_id, client_items.cpf AS client_items_cpf, client_items.name AS client_items_name, client_items.birthday AS client_items_birthday, client_items.client_id AS client_items_client_id 
+FROM client_items]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+ERROR:app:Exception on /dashboard [GET]
+Traceback (most recent call last):
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1819, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\engine\default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such column: client_items.client_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask_login\utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\app.py", line 157, in dashboard
+    client_items = ClientItem.query.all()
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\orm\query.py", line 2768, in all
+    return self._iter().all()
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\orm\query.py", line 2903, in _iter
+    result = self.session.execute(
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\orm\session.py", line 1692, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1631, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\sql\elements.py", line 325, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1498, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1862, in _execute_context
+    self._handle_dbapi_exception(
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\engine\base.py", line 2043, in _handle_dbapi_exception
+    util.raise_(
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1819, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\sqlalchemy\engine\default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such column: client_items.client_id
+[SQL: SELECT client_items.id AS client_items_id, client_items.cpf AS client_items_cpf, client_items.name AS client_items_name, client_items.birthday AS client_items_birthday, client_items.client_id AS client_items_client_id 
+FROM client_items]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+ERROR:flask_migrate:Error: Directory migrations already exists and is not empty
+ERROR:flask_migrate:Error: Directory migrations already exists and is not empty
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+ERROR:app:Exception on /dashboard [GET]
+Traceback (most recent call last):
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask_login\utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\app.py", line 173, in dashboard
+    return render_template('dashboard.html', items=user_names, client_items=client_items)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\templating.py", line 148, in render_template
+    return _render(
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\templating.py", line 128, in _render
+    rv = template.render(context)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\jinja2\environment.py", line 1291, in render
+    self.environment.handle_exception()
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\jinja2\environment.py", line 926, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\templates\dashboard.html", line 1, in top-level template code
+    {% extends 'header.html' %}
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\templates\header.html", line 26, in top-level template code
+    {% block content %}
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\templates\dashboard.html", line 20, in block 'content'
+    <form action="{{url_for('new_client')}}" method="post">
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\helpers.py", line 336, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\flask\helpers.py", line 323, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\werkzeug\routing.py", line 2307, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'new_client'. Did you mean 'login' instead?

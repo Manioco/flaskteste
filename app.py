@@ -45,6 +45,28 @@ class User(db.Model, UserMixin):
     password = db.Column(db.String(80), nullable=False)
 
 
+class ClientForm(FlaskForm):
+    cpf = StringField(
+        "CPF",
+        validators=[InputRequired(), Length(min=11, max=11)])
+    name = StringField(
+        "Name",
+        validators=[InputRequired(), Length(min=2, max=30)])
+    birthday = StringField(
+        "Birthday",
+        validators=[InputRequired(), Length(min=10, max=10)])
+    submit = SubmitField("Add Client")
+
+
+class ClientItem(db.Model):
+    __tablename__ = "client_items"
+    id = db.Column(db.Integer, primary_key=True)
+    cpf = db.Column(db.String(11), nullable=False, unique=True)
+    name = db.Column(db.String(20), nullable=False)
+    birthday = db.Column(db.String(10), nullable=False)
+    # client_id = db.Column(db.Integer, db.ForeignKey('clients.id'), nullable=False)
+
+
 class RegisterForm(FlaskForm):
     username = StringField(
         validators=[InputRequired(), 
@@ -132,8 +154,23 @@ def register():
 @login_required
 def dashboard():
     user_names = User.query.all()
+    client_items = ClientItem.query.all()
+    form = ClientForm()
 
-    return render_template('dashboard.html', items=user_names)
+    if form.validate_on_submit():
+        # Create new client item
+        new_client = ClientItem(
+            cpf=form.cpf.data,
+            name=form.name.data,
+            birthday=form.birthday.data,
+            client_id=current_user.id
+        )
+        db.session.add(new_client)
+        db.session.commit()
+        flash("New client added successfully!", "success")
+        return redirect(url_for('dashboard'))
+
+    return render_template('dashboard.html', items=user_names, client_items=client_items)
 
 
 @app.route('/logout')
@@ -144,6 +181,7 @@ def logout():
 
 
 if __name__ == "__main__":
+    app.debug = True
     logging.info("Aplicativo iniciado")  # Loga a mensagem quando o aplicativo é iniciado
     
     port = None

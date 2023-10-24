@@ -7,7 +7,7 @@ Dashboard
 {% block content %}
 <h1>You are Logged in</h1>
 <br>
-<h1>Dashboard - usuários cadastrados:</h1>
+<h1>Dashboard - registered users:</h1>
 <br>
 <ul>
     {% for i in items %}
@@ -15,6 +15,45 @@ Dashboard
     {% endfor %}
 </ul>
 <br>
+<div class="new_client">
+    <h1>Create new client</h1>
+    <form action="{{url_for('new_client')}}" method="post">
+        {{form.csrf_token}}
+        <div>
+            {{ form.cpf.label }} {{ form.cpf }}
+        </div>
+        <div>
+            {{ form.name.label }} {{ form.name }}
+        </div>
+        <div>
+            {{ form.birthday.label }} {{ form.birthday }}
+        </div>
+        <div>
+            {{ form.submit }}
+        </div>
+    </form>
+</div>
 <br>
-<a href="{{url_for('logout')}}">Logout.</a><br>
+<ul class="clients">
+    {% for client in client_items %}
+        <li>
+            <div>
+                <h3>client</h3>
+                {{client.client_id}}
+            </div>
+            <div>
+                <h3>cpf</h3>
+                {{client.cpf}}
+            </div>
+            <div>
+                <h3>name</h3>
+                {{client.name}}
+            </div>
+            <div>
+                <h3>birthday</h3>
+                {{client.birthday}}
+            </div>
+        </li>
+    {% endfor %}
+</ul>
 {% endblock %}

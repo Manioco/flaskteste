@@ -11,14 +11,21 @@
 <body>
     <header>
         <div class="header_menu">
-            <h1>O teste com flask</h1>
-            <h1>elemento 2</h1>
-            <a href="{{url_for('shutdown_request')}}">Fechar App</a>
+            <h1>THE FLASK TEST APP</h1>
+            {% if session['logged_in'] %}
+                <a href="{{url_for('logout')}}">Logout</a>
+            {% else %}
+                <a href="{{url_for('login')}}">Login</a>
+            {% endif %}
+            <h1>-/|\-</h1>
+            <a href="{{url_for('shutdown_request')}}">Close app</a>
         </div>
         <div class="line"></div>
     </header>
     <main>
-        {% block content %}{% endblock %}
+        {% block content %}
+        
+        {% endblock %}
     </main>
 </body>
 </html>
