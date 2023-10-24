@@ -153,6 +153,14 @@ def register():
     return render_template('register.html', form=form)
 
 
+def get_last_id():
+    last_id = 0
+    for item in ClientItem.query.all():
+        if (id:=item.client_id > last_id):
+            last_id = id
+    return int(last_id)+1
+
+
 @app.route('/new_client', methods=['POST'])
 def new_client():
     form = ClientForm()
@@ -164,7 +172,7 @@ def new_client():
         cpf=form.cpf.data,
         name=form.name.data,
         birthday=form.birthday.data,
-        client_id=current_user.id
+        client_id=get_last_id()
     )
     db.session.add(new_client)
     db.session.commit()

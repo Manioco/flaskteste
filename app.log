@@ -595,3 +595,72 @@ WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 681-882-444
 WARNING:app:WebSocket transport not available. Install gevent-websocket for improved performance.
 ERROR:engineio.server:The client is using an unsupported version of the Socket.IO or Engine.IO protocols (further occurrences of this error will be logged with level INFO)
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask teste\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-882-444
+WARNING:app:WebSocket transport not available. Install gevent-websocket for improved performance.
+ERROR:engineio.server:The client is using an unsupported version of the Socket.IO or Engine.IO protocols (further occurrences of this error will be logged with level INFO)
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+WARNING:app:WebSocket transport not available. Install gevent-websocket for improved performance.
+INFO:werkzeug: * Restarting with stat
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-882-444
+WARNING:app:WebSocket transport not available. Install gevent-websocket for improved performance.
+ERROR:engineio.server:The client is using an unsupported version of the Socket.IO or Engine.IO protocols (further occurrences of this error will be logged with level INFO)
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask teste\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-882-444
+WARNING:app:WebSocket transport not available. Install gevent-websocket for improved performance.
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask teste\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-882-444
+WARNING:app:WebSocket transport not available. Install gevent-websocket for improved performance.
+ERROR:engineio.server:The client is using an unsupported version of the Socket.IO or Engine.IO protocols (further occurrences of this error will be logged with level INFO)
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+WARNING:app:WebSocket transport not available. Install gevent-websocket for improved performance.
+INFO:werkzeug: * Restarting with stat
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-882-444
+WARNING:app:WebSocket transport not available. Install gevent-websocket for improved performance.
+ERROR:engineio.server:The client is using an unsupported version of the Socket.IO or Engine.IO protocols (further occurrences of this error will be logged with level INFO)
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask teste\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-882-444
+WARNING:app:WebSocket transport not available. Install gevent-websocket for improved performance.
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask teste\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-882-444
+WARNING:app:WebSocket transport not available. Install gevent-websocket for improved performance.
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+WARNING:app:WebSocket transport not available. Install gevent-websocket for improved performance.
+INFO:werkzeug: * Restarting with stat
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-882-444
+WARNING:app:WebSocket transport not available. Install gevent-websocket for improved performance.
+ERROR:engineio.server:The client is using an unsupported version of the Socket.IO or Engine.IO protocols (further occurrences of this error will be logged with level INFO)
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask teste\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
