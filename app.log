@@ -471,3 +471,127 @@ Traceback (most recent call last):
   File "C:\Users\praus\Desktop\Trabalhos\Eu\Programacao\flaskteste\venv\lib\site-packages\werkzeug\routing.py", line 2307, in build
     raise BuildError(endpoint, values, method, self)
 werkzeug.routing.BuildError: Could not build url for endpoint 'new_client'. Did you mean 'login' instead?
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+INFO:root:Aplicativo iniciado
+WARNING:app:WebSocket transport not available. Install gevent-websocket for improved performance.
+INFO:werkzeug: * Restarting with stat
+INFO:root:Aplicativo iniciado
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-882-444
+WARNING:app:WebSocket transport not available. Install gevent-websocket for improved performance.
+INFO:root:Servidor Gevent iniciado na porta 5000
+INFO:root:Servidor Gevent iniciado na porta 5000
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+WARNING:app:WebSocket transport not available. Install gevent-websocket for improved performance.
+INFO:werkzeug: * Restarting with stat
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-882-444
+WARNING:app:WebSocket transport not available. Install gevent-websocket for improved performance.
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask teste\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-882-444
+WARNING:app:WebSocket transport not available. Install gevent-websocket for improved performance.
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+WARNING:app:WebSocket transport not available. Install gevent-websocket for improved performance.
+INFO:werkzeug: * Restarting with stat
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-882-444
+WARNING:app:WebSocket transport not available. Install gevent-websocket for improved performance.
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask teste\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-882-444
+WARNING:app:WebSocket transport not available. Install gevent-websocket for improved performance.
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask teste\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-882-444
+WARNING:app:WebSocket transport not available. Install gevent-websocket for improved performance.
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask teste\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-882-444
+WARNING:app:WebSocket transport not available. Install gevent-websocket for improved performance.
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask teste\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-882-444
+WARNING:app:WebSocket transport not available. Install gevent-websocket for improved performance.
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask teste\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+WARNING:app:WebSocket transport not available. Install gevent-websocket for improved performance.
+INFO:werkzeug: * Restarting with stat
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-882-444
+WARNING:app:WebSocket transport not available. Install gevent-websocket for improved performance.
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask teste\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-882-444
+WARNING:app:WebSocket transport not available. Install gevent-websocket for improved performance.
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask teste\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-882-444
+WARNING:app:WebSocket transport not available. Install gevent-websocket for improved performance.
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask teste\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-882-444
+WARNING:app:WebSocket transport not available. Install gevent-websocket for improved performance.
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask teste\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-882-444
+WARNING:app:WebSocket transport not available. Install gevent-websocket for improved performance.
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\Leonardo Worm\\Testes\\Flask teste\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+WARNING:app:WebSocket transport not available. Install gevent-websocket for improved performance.
+INFO:werkzeug: * Restarting with stat
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-882-444
+WARNING:app:WebSocket transport not available. Install gevent-websocket for improved performance.
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+WARNING:app:WebSocket transport not available. Install gevent-websocket for improved performance.
+INFO:werkzeug: * Restarting with stat
+INFO:root:Aplicativo iniciado
+INFO:root:Servidor Gevent iniciado na porta 5000
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-882-444
+WARNING:app:WebSocket transport not available. Install gevent-websocket for improved performance.
+ERROR:engineio.server:The client is using an unsupported version of the Socket.IO or Engine.IO protocols (further occurrences of this error will be logged with level INFO)

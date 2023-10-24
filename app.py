@@ -12,6 +12,7 @@ import logging
 import asyncio
 from gevent.pywsgi import WSGIServer
 from flask_migrate import Migrate
+from flask_socketio import SocketIO, emit
 
 
 logging.basicConfig(filename='app.log', level=logging.INFO)  # Configuração do log
@@ -30,6 +31,8 @@ migrate = Migrate(app, db)
 login_manager = LoginManager() # Allow the app and flask work together
 login_manager.init_app(app)
 login_manager.login_view = 'login'
+
+socketio = SocketIO(app)
 
 
 @login_manager.user_loader
@@ -150,28 +153,42 @@ def register():
     return render_template('register.html', form=form)
 
 
-@app.route('/dashboard', methods=['GET', 'POST'])
-@login_required
-def dashboard():
-    user_names = User.query.all()
-    client_items = ClientItem.query.all()
+@app.route('/new_client', methods=['POST'])
+def new_client():
     form = ClientForm()
 
+    # Your code to create a new client goes here
     if form.validate_on_submit():
         # Create new client item
         new_client = ClientItem(
-            cpf=form.cpf.data,
-            name=form.name.data,
-            birthday=form.birthday.data,
-            client_id=current_user.id
-        )
-        db.session.add(new_client)
-        db.session.commit()
-        flash("New client added successfully!", "success")
-        return redirect(url_for('dashboard'))
+        cpf=form.cpf.data,
+        name=form.name.data,
+        birthday=form.birthday.data,
+        client_id=current_user.id
+    )
+    db.session.add(new_client)
+    db.session.commit()
 
-    return render_template('dashboard.html', items=user_names, client_items=client_items)
+    # Emit a message to all connected clients
+    socketio.emit('new_client_added', {'client_id': new_client.client_id}, namespace='/dashboard')
 
+    flash("New client added successfully!", "success")
+    return redirect(url_for('dashboard'))
+
+
+@app.route('/dashboard', methods=['GET', 'POST'])
+@login_required
+def dashboard():
+    form = ClientForm()
+
+    user_names = User.query.all()
+    client_items = ClientItem.query.all()
+
+    @socketio.on('message')
+    def handle_message(message):
+        emit('message', message, broadcast=True)
+
+    return render_template('dashboard.html', items=user_names, client_items=client_items, form=form)
 
 @app.route('/logout')
 @login_required
@@ -194,7 +211,6 @@ if __name__ == "__main__":
 
     if port:
         # Inicia o servidor Gevent na porta encontrada
-        http_server = WSGIServer(('0.0.0.0', port), app)
         logging.info(f"Servidor Gevent iniciado na porta {port}")
         print("\n\n\n")
         print("#   V|||||V   #")
@@ -207,6 +223,9 @@ if __name__ == "__main__":
         print("\n")
         print(f"Para abrir o aplicativo, acesse:")
         print(f"localhost:{port}/")
-        http_server.serve_forever()
+        socketio.run(app, host='0.0.0.0', port=port)
     else:
         logging.error("Nenhuma porta disponível para iniciar o servidor.")
+
+
+

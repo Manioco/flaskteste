@@ -5,6 +5,14 @@ Dashboard
 {% endblock %}
 
 {% block content %}
+<script src="//cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+<script type="text/javascript" charset="utf-8">
+    var socket = io.connect('http://' + document.domain + ':' + location.port + '/dashboard');
+    socket.on('new_client_added', function(data) {
+        console.log(data);
+        // Update the page with the new data
+    });
+</script>
 <h1>You are Logged in</h1>
 <br>
 <h1>Dashboard - registered users:</h1>
