@@ -1,3 +1,6 @@
+Vá para a branch "deply_test"
+GO TO "deply_test" branch
+
 Para testar o app, basta baixar o arquivo .exe e executar ele.
 
 To use the app, you only need to download the .exe file and run it.
